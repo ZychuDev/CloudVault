@@ -1,0 +1,9 @@
+keyfile.json
+keyfileT.json
+*.hcl
+.terraform
+tmp
+*.tfstate
+*.tfvars
+secret
+*.tfstate.backup
