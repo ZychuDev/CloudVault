@@ -5,7 +5,6 @@ import base64
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
 
-SENDGRID_API_KEY = "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"
 message = Mail(
     from_email='wzychowicz@student.agh.edu.pl',
     to_emails='wzychowicz@student.agh.edu.pl',
